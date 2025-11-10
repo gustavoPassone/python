@@ -44,3 +44,12 @@ del lista3[-1]
 
 lista3.insert(0, 5)
 print(lista3)
+
+print(20 * '-')
+
+lista_a = [1, 2, 3]
+lista_b = [4, 5, 6]
+lista_c = lista_a + lista_b
+lista_a.extend(lista_b)
+print('lista c', lista_c)
+print('lista a', lista_a)

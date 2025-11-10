@@ -1,0 +1,11 @@
+"""
+Tipo tupla - Uma lista imutável
+"""
+
+nomes = ('Maria', 'Helena', 'Luiz') # tupla
+print(nomes[-1])
+print(nomes)
+
+nomes2 = ['Maria', 'Helena', 'Luiz']
+nomes2 = tuple(nomes2)
+print(type(nomes2))
